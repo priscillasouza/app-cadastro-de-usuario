@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterUserFragment"
+        android:orientation="vertical"
+        android:layout_margin="32dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastro de usuário"
+            android:layout_marginTop="64dp"
+            android:textSize="32sp"
+            android:textColor="@color/purple_700"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/edittext_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:inputType="textAutoComplete"
+            android:layout_marginTop="64dp"/>
+
+        <EditText
+            android:id="@+id/edittext_cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CPF"
+            android:inputType="number"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/edittext_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Idade"
+            android:inputType="number"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/edittext_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefone"
+            android:inputType="number"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/edittext_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cidade"
+            android:inputType="textAutoComplete"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/button_register_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Cadastrar"/>
+    </LinearLayout>
+</ScrollView>
