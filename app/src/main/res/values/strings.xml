@@ -1,5 +1,24 @@
 <resources>
     <string name="app_name">Cadastro de usuario</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_hello">Hello!</string>
+    <string name="title_home">Hello!</string>
+    <string name="subtitle_home">Clique em login para entrar, se não é usuário registre-se</string>
+    <string name="text_button_open_login">Login</string>
+    <string name="text_button_create_account">Criar conta</string>
+    <string name="title_login">Bem vindo!</string>
+    <string name="subtitle_login">Entre para continuar</string>
+    <string name="text_hint_email_login">Email</string>
+    <string name="text_hint_password_login">Senha</string>
+    <string name="text_button_login">Login</string>
+    <string name="text_forgot_password_login">Esqueceu sua senha?</string>
+    <string name="title_register_user">Oi!</string>
+    <string name="subtitle_register_user">Crie uma nova conta!</string>
+    <string name="text_hint_name_register_user">Nome</string>
+    <string name="text_hint_email_register_user">Email</string>
+    <string name="text_hint_password_register_user">Senha</string>
+    <string name="text_hint_city_register_user">Cidade</string>
+    <string name="text_hint_country_register_user">País</string>
+    <string name="text_button_register_user">Registre-se</string>
+    <string name="title_welcome">Seja bem vindo(a)</string>
 </resources>

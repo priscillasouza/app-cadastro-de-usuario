@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp"
-            android:text="Oi!"
+            android:text="@string/title_register_user"
             android:textColor="@color/purple_700"
             android:textSize="32sp" />
 
@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Crie uma nova conta!" />
+            android:text="@string/subtitle_register_user" />
 
         <EditText
             android:id="@+id/editTextName"
@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:hint="Nome"
+            android:hint="@string/text_hint_name_register_user"
             android:inputType="textAutoComplete" />
 
         <EditText
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:hint="Email"
+            android:hint="@string/text_hint_email_register_user"
             android:inputType="textEmailAddress" />
 
         <EditText
@@ -63,7 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:hint="Senha"
+            android:hint="@string/text_hint_password_register_user"
             android:inputType="textPassword" />
 
         <EditText
@@ -72,7 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:hint="Cidade"
+            android:hint="@string/text_hint_city_register_user"
             android:inputType="textAutoComplete" />
 
         <EditText
@@ -81,7 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:hint="País"
+            android:hint="@string/text_hint_country_register_user"
             android:inputType="textAutoComplete" />
 
         <Button
@@ -92,6 +92,6 @@
             android:layout_marginHorizontal="32dp"
             android:layout_marginTop="32dp"
             android:background="@drawable/background_button"
-            android:text="Registre-se" />
+            android:text="@string/text_button_register_user" />
     </LinearLayout>
 </ScrollView>
