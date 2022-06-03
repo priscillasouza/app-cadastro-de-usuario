@@ -10,11 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="32dp"
-        android:orientation="vertical"
-        tools:context=".RegisterUserFragment">
+        android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageButtonArrowBackRegisterUser"
+            android:id="@+id/imageViewArrowBackLogin"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:clickable="true"
@@ -22,76 +21,59 @@
             android:src="@drawable/ic_arrow_back" />
 
         <TextView
-            android:id="@+id/textViewTitleRegisterUser"
+            android:id="@+id/textviewTitleRegisterLogin"
             style="@style/Text_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="64dp"
-            android:text="Oi!"
-            android:textColor="@color/purple_700"
-            android:textSize="32sp" />
+            android:layout_marginTop="100dp"
+            android:text="Bem vindo!" />
 
         <TextView
-            android:id="@+id/textViewSubtitleRegisterUser"
+            android:id="@+id/textviewSubtitleRegisterLogin"
             style="@style/Text_subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Crie uma nova conta!" />
+            android:text="Entre para continuar" />
 
         <EditText
-            android:id="@+id/editTextName"
+            android:id="@+id/editTextEmailLogin"
             style="@style/Text_hint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:hint="Nome"
+            android:hint="Email"
             android:inputType="textAutoComplete" />
 
         <EditText
-            android:id="@+id/editTextEmail"
-            style="@style/Text_hint"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Email"
-            android:inputType="textEmailAddress" />
-
-        <EditText
-            android:id="@+id/editTextPassword"
+            android:id="@+id/editTextPasswordLogin"
             style="@style/Text_hint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:hint="Senha"
-            android:inputType="textPassword" />
-
-        <EditText
-            android:id="@+id/editTextCity"
-            style="@style/Text_hint"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Cidade"
-            android:inputType="textAutoComplete" />
-
-        <EditText
-            android:id="@+id/editTextCountry"
-            style="@style/Text_hint"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="País"
             android:inputType="textAutoComplete" />
 
         <Button
-            android:id="@+id/buttonRegisterUser"
+            android:id="@+id/buttonRegisterLogin"
             style="@style/Text_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="32dp"
             android:layout_marginTop="32dp"
             android:background="@drawable/background_button"
-            android:text="Registre-se" />
+            android:text="Login" />
+
+        <TextView
+            android:id="@+id/textviewForgotPasword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:text="Esqueceu sua senha?"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="16sp" />
     </LinearLayout>
 </ScrollView>

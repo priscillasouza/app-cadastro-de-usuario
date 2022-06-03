@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="32dp"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageViewHome"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/image_home" />
+
+    <TextView
+        android:id="@+id/textViewTitleHome"
+        style="@style/Text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Hello!"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textViewSubtitleHome"
+        style="@style/Text_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Clique em login para entrar, se não é usuário registre-se"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        style="@style/Text_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/background_button"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        style="@style/Text_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_button"
+        android:text="Criar conta" />
+</androidx.appcompat.widget.LinearLayoutCompat>
