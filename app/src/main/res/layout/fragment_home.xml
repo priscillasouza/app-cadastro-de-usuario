@@ -11,16 +11,16 @@
         android:id="@+id/imageViewHome"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_marginTop="24dp"
-        android:scaleType="fitStart"
-        android:src="@drawable/image_home" />
+        android:layout_marginTop="32dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image_home"/>
 
     <TextView
         android:id="@+id/textViewTitleHome"
         style="@style/Text_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:text="Hello!"
         android:textAlignment="center" />
 
