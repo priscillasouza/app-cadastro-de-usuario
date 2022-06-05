@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="32dp"
         android:orientation="vertical"
-        tools:context=".UserInformationFragment">
+        tools:context=".ListInformationFragment">
 
         <ImageView
             android:id="@+id/imageViewArrowBackUserInformation"
